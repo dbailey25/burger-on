@@ -1,10 +1,46 @@
+body {
+  background-color: #e6eaf4
+}
+
+.text {
+  font-family: 'Fredoka One', cursive;
+  color: #333333;
+}
+
+.center {
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 20px auto 20px auto;
+    width: 175px;
+    border-radius: 5px;
+}
+
+.submit {
+  margin-top: -11px;
+}
+
+.list {
+  float: left;
+  color: #333333;
+  text-align: center;
+  padding: 0 10px 10px 10px;
+  margin: 10px 1% 10px 0;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  min-width: 350px;
+  width: 49%;
+  background-color: white;
+
+}
+
 li {
   padding: 5px;
   margin: 5px;
   background: #faebd7;
 }
 
-.label {
+/* .label {
   font-weight: bold;
 }
 
@@ -16,4 +52,4 @@ li {
 
 .form-group {
   margin-bottom: 5px;
-}
+} */
