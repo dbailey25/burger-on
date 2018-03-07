@@ -1,28 +1,33 @@
 body {
-  background-color: #e6eaf4
+  background-color: #f5f3da;
 }
 
 .text {
   font-family: 'Fredoka One', cursive;
-  color: #333333;
+  /* color: #333333; */
+  color: #c7731c;
 }
 
 .center {
     display: block;
-    /* margin-left: auto;
-    margin-right: auto; */
     margin: 20px auto 20px auto;
     width: 175px;
-    border-radius: 5px;
 }
 
 .submit {
   margin-top: -11px;
+  background-color: #c7731c;
+  border-color: #c7731c;
+}
+
+.submit:hover {
+    background-color: #9e5b14;
+    border-color: #9e5b14;
 }
 
 .list {
   float: left;
-  color: #333333;
+  color: #c7731c;
   text-align: center;
   padding: 0 10px 10px 10px;
   margin: 10px 1% 10px 0;
