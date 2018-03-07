@@ -1,8 +1,26 @@
-<h1>Cats!</h1>
+<div class="container">
+  <img src="../assets/images/burger-on.jpg" alt="keep calm and burger on">
 
-<h2>Cats that are not sleepy!</h2>
+  <h2>What's on your burger wish list?</h2>
 
-<ul>
+  <!-- <form class="text" action="index.html" method="post"> -->
+  <form class="text">
+    <div class="form-group">
+      <!-- <label for="burger">Burger description</label> -->
+      <input type="text" class="form-control" id="burger" aria-describedby="burger" placeholder="Burger description">
+    </div>
+    
+    <button type="submit" class="btn btn-primary submit">Submit</button>
+  </form>
+
+</div>
+
+
+
+
+
+
+<!-- <ul>
   {{#each cats}}
     {{#unless sleepy}}
       {{> cats/cat-block sleep=true}}
@@ -35,4 +53,4 @@
   </div>
 
   <button type="submit">Add Cat</button>
-</form>
+</form> -->
