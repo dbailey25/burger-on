@@ -1,9 +1,9 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function() {
   // $(".change-sleep").on("click", function(event) {
-  $("#devour").on("click", function(event) {
+  $(".change-state").on("click", function(event) {
     var id = $(this).data("id");
-    var newState = $(this).data("newState");
+    var newState = $(this).data("newstate");
 
     var newCraveState = {
       crave: newState
@@ -15,7 +15,7 @@ $(function() {
       data: newCraveState
     }).then(
       function() {
-        console.log("changed state to", newState);
+        console.log("changed state to", newCraveState);
         // Reload the page to get the updated list
         location.reload();
       }
