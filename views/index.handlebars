@@ -17,19 +17,19 @@
     <p>Burgers You Crave</p>
     <ul>
       {{#each burgers}}
-        {{#if eaten}}
-          {{> burgers/burger-block eaten=false}}
+        {{#if crave}}
+          {{> burgers/burger-button crave=false}}
         {{/if}}
-      {{/each}}
+      {{/each}}      
     </ul>
   </div>
   <div class="text list">
     <p>Burgers You've Devoured</p>
     <ul>
       {{#each burgers}}
-        {{#unless eaten}}
-          {{> burgers/burger-block eaten=true}}
-        {{/unless}}
+        {{#unless crave}}
+          {{> burgers/burger-empty}}
+        {{/unless}}      
       {{/each}}
     </ul>
   </div>

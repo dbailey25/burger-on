@@ -5,14 +5,14 @@ $(function() {
     var id = $(this).data("id");
     var newState = $(this).data("newState");
 
-    var newEatenState = {
-      eaten: newState
+    var newCraveState = {
+      crave: newState
     };
 
     // Send the PUT request.
     $.ajax("/api/burgers/" + id, {
       type: "PUT",
-      data: newEatenState
+      data: newCraveState
     }).then(
       function() {
         console.log("changed state to", newState);
@@ -26,18 +26,18 @@ $(function() {
     // Make sure to preventDefault on a submit event.
     event.preventDefault();
 
-    var newburger = {
+    var newBurger = {
       name: $("#burger").val().trim()
       // sleepy: $("[name=sleepy]:checked").val().trim()
     };
 
     // Send the POST request.
-    $.ajax("/api/cats", {
+    $.ajax("/api/burgers", {
       type: "POST",
-      data: newCat
+      data: newBurger
     }).then(
       function() {
-        console.log("created new cat");
+        console.log("added a new burger");
         // Reload the page to get the updated list
         location.reload();
       }
