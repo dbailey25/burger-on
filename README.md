@@ -11,7 +11,7 @@
 Burger On is a web application that tracks which delicious burgers you want to try and which ones you've eaten. Burger On uses a Node JS server to respond to API calls from the front end website and a SQL database to store all of the burger info.
 
 #### How to use Burger On?
-1. Navigate to https://obscure-taiga-74245.herokuapp.com/ in your web browser to launch the website
+1. Navigate to https://still-temple-82106.herokuapp.com/ in your web browser to launch the website
 1. Enter a burger that you're interested in
 1. Once you've eaten a burger from the Crave list clisk the Devour button to move it to the Devoured list.
 
