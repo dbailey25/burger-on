@@ -4,7 +4,6 @@ body {
 
 .text {
   font-family: 'Fredoka One', cursive;
-  /* color: #333333; */
   color: #c7731c;
 }
 
@@ -16,6 +15,13 @@ body {
 
 .submit {
   margin-top: -11px;
+  background-color: #c7731c;
+  border-color: #c7731c;
+}
+
+.change-state {
+  height: 30px;
+  padding-top: 2px;
   background-color: #c7731c;
   border-color: #c7731c;
 }
@@ -43,18 +49,5 @@ li {
   padding: 5px;
   margin: 5px;
   background: #faebd7;
+  border-radius: 5px;
 }
-
-/* .label {
-  font-weight: bold;
-}
-
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
-}
-
-.form-group {
-  margin-bottom: 5px;
-} */
